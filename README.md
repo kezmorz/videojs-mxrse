@@ -1,1 +1,1 @@
-# videojs-mxrse
+# Video.JS Mxrse Player

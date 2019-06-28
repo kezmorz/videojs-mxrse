@@ -1,0 +1,67 @@
+.component {
+    width: 100%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.vjs-mxrse .vjs-control-bar {
+    display: flex;
+    flex-flow: row wrap;
+    height: 5.0em;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.vjs-mxrse .vjs-control {
+    height: 3.0em;
+}
+
+.vjs-mxrse .vjs-progress-control {
+    height: 2.0em;
+    width: 100%;
+}
+
+.vjs-mxrse .vjs-current-time,
+.vjs-mxrse .vjs-no-flex .vjs-current-time {
+    display: flex;
+}
+
+.vjs-mxrse .vjs-time-divider {
+    display: flex;
+}
+
+.vjs-mxrse .vjs-duration,
+.vjs-mxrse .vjs-no-flex .vjs-duration {
+    display: flex; 
+}
+
+.video-js .vjs-custom-control-spacer {
+    display: flex;
+    flex: auto;
+}
+
+@media (min-width: 576px) {
+    .component {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .component {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .component {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .component {
+        max-width: 1140px;
+    }
+}
