@@ -46,6 +46,12 @@
     background-color: rgba(44,177,255);
 }
 
+/* 733 */
+.vjs-mxrse .vjs-progress-control:hover .vjs-play-progress .vjs-time-tooltip, 
+.vjs-mxrse .vjs-progress-control:hover .vjs-progress-holder:focus .vjs-play-progress .vjs-time-tooltip {
+    display: none;
+}
+
 /* 888 */
 .vjs-mxrse .vjs-volume-level {
     background-color: rgba(44,177,255);
