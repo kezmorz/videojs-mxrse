@@ -41,9 +41,30 @@
     width: 100%;
 }
 
+/* 684 */
+.vjs-mxrse .vjs-progress-control:hover .vjs-progress-holder {
+    font-size: 1.6em; 
+}
+
 /* 700 */
 .vjs-mxrse .vjs-play-progress {
     background-color: rgba(44,177,255);
+}
+
+/* 702 */
+.vjs-mxrse .vjs-play-progress:before {
+    opacity: 0;
+    visibility: hidden;
+    font-size: 1em;
+    transition: opacity 0.2s, visibility 0.2s;
+}
+
+.vjs-mxrse .vjs-progress-control:hover .vjs-play-progress:before, 
+.vjs-mxrse .vjs-progress-control:hover .vjs-progress-holder:focus .vjs-play-progress:before {
+    opacity: 1;
+    visibility: visible;
+    font-size: 0.8em;
+    top: -0.266666666666666em;
 }
 
 /* 733 */
@@ -57,10 +78,32 @@
     background-color: rgba(44,177,255);
 }
 
+/* 893 */
+.vjs-mxrse .vjs-volume-level:before {
+    font-size: 1em; 
+}
+
+/* 903 */
+.vjs-slider-horizontal .vjs-volume-level {
+    height: 0.333333333333333em; 
+}
+
+/* 905 */
+.vjs-slider-horizontal .vjs-volume-level:before {
+    top: -0.333333333333333em;
+}
+
 /* 652 */
 .vjs-mxrse .vjs-custom-control-spacer {
     display: flex;
     flex: auto;
+}
+
+/* 1001 */
+.vjs-mxrse .vjs-time-control {
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+    justify-content: center;
 }
 
 /* 1013 */
