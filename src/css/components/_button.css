@@ -1,0 +1,7 @@
+.vjs-mxrse .vjs-control.vjs-button {
+    transition: all 0.4s;
+}
+
+.vjs-mxrse .vjs-control:hover.vjs-button {
+    background-color: rgba(44,177,255);
+}

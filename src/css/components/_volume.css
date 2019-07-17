@@ -1,0 +1,15 @@
+.vjs-mxrse .vjs-volume-level {
+    background-color: rgba(44,177,255);
+}
+
+.vjs-mxrse .vjs-volume-level:before {
+    font-size: 1em; 
+}
+
+.vjs-slider-horizontal .vjs-volume-level {
+    height: 0.3em; 
+}
+
+.vjs-slider-horizontal .vjs-volume-level:before {
+    top: -0.35em;
+}

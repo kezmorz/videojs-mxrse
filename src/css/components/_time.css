@@ -1,0 +1,24 @@
+.vjs-mxrse .vjs-time-control {
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+    justify-content: center;
+}
+
+.vjs-mxrse .vjs-current-time,
+.vjs-mxrse .vjs-no-flex .vjs-current-time {
+    display: flex;
+}
+
+.vjs-mxrse .vjs-time-divider {
+    display: flex;
+}
+
+.vjs-mxrse .vjs-duration,
+.vjs-mxrse .vjs-no-flex .vjs-duration {
+    display: flex; 
+}
+
+.vjs-mxrse .vjs-remaining-time,
+.vjs-mxrse .vjs-no-flex .vjs-remaining-time {
+    display: none; 
+}
