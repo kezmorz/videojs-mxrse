@@ -1,9 +1,9 @@
 const generate = require('videojs-generate-postcss-config');
 
 module.exports = function(context) {
-  const result = generate({}, context);
-
-  // do custom stuff here
-
+  const options = {
+    input: 'src/css/plugin.css'
+  };
+  const result = generate(context, options);
   return result;
 };

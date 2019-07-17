@@ -1,6 +1,6 @@
 import videojs from 'video.js';
-import MxrseControlBar from './js/control-bar/mxrse-control-bar.js';
-import {version as VERSION} from '../package.json';
+import MxrseControlBar from './control-bar/mxrse-control-bar.js';
+import {version as VERSION} from '../../package.json';
 
 const Plugin = videojs.getPlugin('plugin');
 

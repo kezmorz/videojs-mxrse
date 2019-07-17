@@ -9,11 +9,11 @@
  *   https://www.w3.org/TR/css-variables-1/
  */
 
- @import "css/components/_button.css";
- @import "css/components/_mxrse-control-bar.css";
- @import "css/components/_control.css";
- @import "css/components/_control-spacer.css";
- @import "css/components/_progress.css";
- @import "css/components/_volume.css";
- @import "css/components/_time.css";
- @import "css/components/_text-track.css";
+ @import "components/_button.css";
+ @import "components/_mxrse-control-bar.css";
+ @import "components/_control.css";
+ @import "components/_control-spacer.css";
+ @import "components/_progress.css";
+ @import "components/_volume.css";
+ @import "components/_time.css";
+ @import "components/_text-track.css";
