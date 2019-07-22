@@ -5,5 +5,6 @@ module.exports = function(context) {
     input: 'src/css/plugin.css'
   };
   const result = generate(context, options);
+
   return result;
 };
