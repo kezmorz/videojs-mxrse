@@ -1,5 +1,5 @@
 .vjs-mxrse .vjs-volume-level {
-    background-color: rgba(44,177,255);
+    background-color: rgba(var(--secondary-background-colour), var(--secondary-background-transparency));
 }
 
 .vjs-mxrse .vjs-volume-level:before {

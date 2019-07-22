@@ -9,8 +9,11 @@
  *   https://www.w3.org/TR/css-variables-1/
  */
 
+ @import "./_private-variables.css";
+
+ @import "components/_big-play.css";
  @import "components/_button.css";
- @import "components/_mxrse-control-bar.css";
+ @import "components/_control-bar.css";
  @import "components/_control.css";
  @import "components/_control-spacer.css";
  @import "components/_progress.css";

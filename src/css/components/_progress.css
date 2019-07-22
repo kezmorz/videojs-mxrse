@@ -8,7 +8,7 @@
 }
 
 .vjs-mxrse .vjs-play-progress {
-    background-color: rgba(44,177,255);
+    background-color: rgba(var(--secondary-background-colour), var(--secondary-background-transparency));
 }
 
 .vjs-mxrse .vjs-play-progress:before {

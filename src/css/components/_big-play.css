@@ -1,0 +1,16 @@
+.vjs-mxrse .vjs-big-play-button {
+    line-height: 2.5em;
+    height: 2.5em;
+    width: 2.5em;
+    top: 0;
+    left: 0;
+    border: 0;
+    background-color: rgba(var(--primary-background-colour), var(--primary-background-transparency));
+    border-radius: 0;
+}
+
+.vjs-mxrse:hover .vjs-big-play-button,
+.vjs-mxrse .vjs-big-play-button:focus {
+    background-color: rgba(var(--secondary-background-colour), var(--secondary-background-transparency));
+    transition: all 0.4s;
+}

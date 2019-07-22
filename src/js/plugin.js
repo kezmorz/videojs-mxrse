@@ -1,6 +1,13 @@
+/**
+ * @file plugin.js
+ */
 import videojs from 'video.js';
-import MxrseControlBar from './control-bar/mxrse-control-bar.js';
 import {version as VERSION} from '../../package.json';
+
+// The following import is used only to ensure that the corresponding module
+// is always included in the plugin. Importing the module with execute it
+// and it will register itself with video.js.
+import './control-bar/mxrse-control-bar.js';
 
 const Plugin = videojs.getPlugin('plugin');
 
